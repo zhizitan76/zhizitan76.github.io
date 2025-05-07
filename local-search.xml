@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>Vue</title>
+    <link href="/2025/05/08/vue/"/>
+    <url>/2025/05/08/vue/</url>
+    
+    <content type="html"><![CDATA[<p><img src="/images/image.png" alt="image.png"></p><h3 id="1-v-bind：单向绑定（父-➔-子-或-数据-➔-视图）"><a href="#1-v-bind：单向绑定（父-➔-子-或-数据-➔-视图）" class="headerlink" title="1. v-bind：单向绑定（父 ➔ 子 或 数据 ➔ 视图）"></a>1. <strong><code>v-bind</code>：单向绑定</strong>（父 ➔ 子 或 数据 ➔ 视图）</h3><ul><li>只负责<strong>把数据从 Vue 实例绑定到 DOM 或子组件</strong></li><li>它是<strong>单向的</strong>，不会自动把用户输入或子组件的变化同步回数据。</li></ul><p><code>v-model</code> 是 <strong>Vue.js</strong> 中的一个非常核心的指令，用来在 <strong>表单控件</strong> 和 <strong>组件</strong> 上实现 <strong>双向绑定</strong>。</p><p>简单理解：</p><ul><li><code>v-model</code> 负责把数据从 <strong>Vue 实例</strong> 更新到 <strong>视图</strong>（input、textarea、select 等）。</li><li>也负责把用户在视图上的输入自动同步回 <strong>Vue 数据</strong>。</li></ul><h3 id="Axios"><a href="#Axios" class="headerlink" title="Axios"></a>Axios</h3><p><code>axios</code> 是前端开发中<strong>最流行</strong>的 HTTP 客户端库之一，专门用来在浏览器（或 Node.js）中发送 <strong>HTTP 请求</strong>，比如调用后端接口、获取数据等</p><p><img src="/images/image201.png" alt="image.png"></p><p><img src="/images/image202.png" alt="image.png"></p><figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs jsx"><span class="hljs-keyword">new</span> <span class="hljs-title class_">Vue</span>(&#123;<br>    <span class="hljs-attr">el</span>: <span class="hljs-string">&quot;#app&quot;</span>,       <span class="hljs-comment">// 或 .$mount(&quot;#app&quot;)</span><br>    <span class="hljs-comment">// ...其他配置</span><br>&#125;);<br></code></pre></td></tr></table></figure><p>• <code>#app</code> 是一个 <strong>CSS 选择器</strong>，表示选择 <code>id=&quot;app&quot;</code> 的 DOM 元素。</p><p><img src="/images/image203.png" alt="image.png"></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Vue</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Java八股</title>
     <link href="/2025/05/07/java/"/>
     <url>/2025/05/07/java/</url>
@@ -23,11 +42,11 @@
   
   
   <entry>
-    <title>dairy0506</title>
+    <title>一些碎碎念</title>
     <link href="/2025/05/06/dairy0506/"/>
     <url>/2025/05/06/dairy0506/</url>
     
-    <content type="html"><![CDATA[<hr><p>行动确实直接来的好</p><p><img src="/images/ttt.png" alt="图片引用方法三"></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="关于行动力——想太多，做太少"><a href="#关于行动力——想太多，做太少" class="headerlink" title="关于行动力——想太多，做太少"></a>关于行动力——想太多，做太少</h3><hr><blockquote><p>两分钟法则：任何低于2分钟的小任务立马做掉<br>三秒法则：3秒内让大脑来不及感受，你就能直接产生行动<br>五分钟法则：你想拖延做一件事的时候，不妨给自己5分钟时间，先尝试着去做，用5分钟的时间投入状态，过后你就会想一口气把事情做完了</p></blockquote><p>波老师所说的直接行动让自己来不及“反应”和上面的235原则挺像的，提升行动力能降低90%的精神内耗。还有就是要降低期望值，缺乏行动力的本质原因主要有两个，给自己设立太高的预期和认为目标太难，正反馈来的少自然就没有动力继续往下做</p><iframe src="https://www.bilibili.com/video/BV1xxdfYxECA/?spm_id_from=333.1391.0.0&vd_source=4dab92dd37c29fbf17e16d02bfad03e1&high_quality=1&danmaku=0&autoplay=1" width="100%" height="500" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><blockquote><p>预期极简化+困难容易化&#x3D;行动力开挂</p></blockquote><p>关于正反馈（待补—）</p><p><a href="https://www.xiaohongshu.com/explore/6308881b000000001b023b8f?xsec_token=ABQo9tFoM0pA7YtVY36qqctKcXNuwW5u228boCz142yrk=&xsec_source=pc_search&source=web_explore_feed">拒绝拖延❌提高行动力✅的24本好书📚</a></p>]]></content>
     
     
     
