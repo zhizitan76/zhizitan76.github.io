@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title></title>
+    <link href="/2025/05/07/java/"/>
+    <url>/2025/05/07/java/</url>
+    
+    <content type="html"><![CDATA[<h3 id="Java数组"><a href="#Java数组" class="headerlink" title="Java数组"></a>Java数组</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs java">这里nums表示数组<br>数组长度:nums.length()<br>数组排序：Arrays.sort(nums)<br><br></code></pre></td></tr></table></figure><h3 id="有序列表List"><a href="#有序列表List" class="headerlink" title="有序列表List"></a>有序列表List</h3><p><a href="https://liaoxuefeng.com/books/java/collection/list/index.html">list的使用说明</a></p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><code class="hljs java">List&lt;String&gt; list = <span class="hljs-keyword">new</span> <span class="hljs-title class_">ArrayList</span>&lt;&gt;();<br>list.add(<span class="hljs-string">&quot;apple&quot;</span>); <span class="hljs-comment">// size=1</span><br><span class="hljs-type">String</span> <span class="hljs-variable">s</span> <span class="hljs-operator">=</span> list.get(i);<br><br><span class="hljs-keyword">for</span> (Iterator&lt;String&gt; it = list.iterator(); it.hasNext(); ) &#123;<br>    <span class="hljs-type">String</span> <span class="hljs-variable">s</span> <span class="hljs-operator">=</span> it.next();<br>    System.out.println(s);<br>&#125;<br><span class="hljs-keyword">for</span> (String s : list) &#123;<br>    System.out.println(s);<br>&#125;<br><br>Object[] array = list.toArray();<br><span class="hljs-comment">//类型转换更为安全</span><br>List&lt;String&gt; list = Arrays.asList(<span class="hljs-string">&quot;apple&quot;</span>, <span class="hljs-string">&quot;banana&quot;</span>, <span class="hljs-string">&quot;cherry&quot;</span>);<br>String[] array = list.toArray(<span class="hljs-keyword">new</span> <span class="hljs-title class_">String</span>[<span class="hljs-number">0</span>]);<br><br>List&lt;Integer&gt; list = List.of(array);<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>dairy0506</title>
     <link href="/2025/05/06/dairy0506/"/>
     <url>/2025/05/06/dairy0506/</url>
